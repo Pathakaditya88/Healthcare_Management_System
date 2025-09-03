@@ -1,13 +1,12 @@
 {
   "version": 2,
-  "functions": {
-    "api/index.py": {
-      "runtime": "vercel-python@0.5.1"
-    }
-  },
+  "builds": [
+    { "src": "Dockerfile", "use": "@vercel/docker" }
+  ],
   "routes": [
-    { "src": "/api/(.*)", "dest": "/api/index.py" }
+    { "src": "/(.*)", "dest": "/" }
   ]
 }
+
 
 
