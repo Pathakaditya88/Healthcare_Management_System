@@ -1,0 +1,208 @@
+2025-05-20 22:34:33,246 - api - INFO - === Registered Routes ===
+2025-05-20 22:34:33,247 - api - INFO - Route: /openapi.json, Methods: {'GET', 'HEAD'}, Name: openapi
+2025-05-20 22:34:33,247 - api - INFO - Route: /docs, Methods: {'GET', 'HEAD'}, Name: swagger_ui_html
+2025-05-20 22:34:33,247 - api - INFO - Route: /docs/oauth2-redirect, Methods: {'GET', 'HEAD'}, Name: swagger_ui_redirect
+2025-05-20 22:34:33,247 - api - INFO - Route: /redoc, Methods: {'GET', 'HEAD'}, Name: redoc_html
+2025-05-20 22:34:33,247 - api - INFO - Route: /, Methods: {'GET'}, Name: root
+2025-05-20 22:34:33,247 - api - INFO - Route: /test, Methods: {'GET'}, Name: test
+2025-05-20 22:34:33,247 - api - INFO - Route: /api/auth/register, Methods: {'POST'}, Name: register_user
+2025-05-20 22:34:33,248 - api - INFO - Route: /token, Methods: {'POST'}, Name: login_for_access_token
+2025-05-20 22:34:33,248 - api - INFO - Route: /test-login, Methods: {'POST'}, Name: test_login
+2025-05-20 22:34:33,248 - api - INFO - Route: /api/records/upload, Methods: {'POST'}, Name: upload_record
+2025-05-20 22:34:33,248 - api - INFO - Route: /api/records/{patient_id}, Methods: {'GET'}, Name: get_record
+2025-05-20 22:34:33,248 - api - INFO - Route: /api/records/download/{record_id}, Methods: {'GET'}, Name: download_record
+2025-05-20 22:34:33,248 - api - INFO - Route: /api/appointments, Methods: {'POST'}, Name: create_appointment
+2025-05-20 22:34:33,248 - api - INFO - Route: /api/appointments, Methods: {'GET'}, Name: get_appointments
+2025-05-20 22:34:33,248 - api - INFO - Route: /api/appointments/{appointment_id}, Methods: {'PUT'}, Name: update_appointment_status
+2025-05-20 22:34:33,248 - api - INFO - Route: /api/patients/search, Methods: {'GET'}, Name: search_patients
+2025-05-20 22:34:33,248 - api - INFO - Route: /api/patients/{patient_id}/profile, Methods: {'GET'}, Name: get_patient_profile
+2025-05-20 22:34:33,248 - api - INFO - Route: /api/appointments/schedule, Methods: {'POST'}, Name: schedule_appointment
+2025-05-20 22:34:33,248 - api - INFO - Route: /api/notifications, Methods: {'GET'}, Name: get_notifications
+2025-05-20 22:34:33,248 - api - INFO - Route: /api/notifications/{notification_id}, Methods: {'PUT'}, Name: mark_notification_read
+2025-05-20 22:34:33,248 - api - INFO - Route: /api/patients/{patient_id}/metrics, Methods: {'GET'}, Name: get_patient_metrics
+2025-05-20 22:34:33,249 - api - INFO - Route: /api/patients/{patient_id}/alerts, Methods: {'GET'}, Name: get_patient_alerts
+2025-05-20 22:34:33,249 - api - INFO - Route: /api/patients/{patient_id}/trends, Methods: {'GET'}, Name: get_patient_trends
+2025-05-20 22:34:33,249 - api - INFO - Route: /api/patients/{patient_id}/metrics, Methods: {'POST'}, Name: add_patient_metric
+2025-05-20 22:34:33,249 - api - INFO - Route: /api/alerts/{alert_id}, Methods: {'PUT'}, Name: update_alert_status
+2025-05-20 22:34:48,105 - api - INFO - === Registered Routes ===
+2025-05-20 22:34:48,105 - api - INFO - Route: /openapi.json, Methods: {'GET', 'HEAD'}, Name: openapi
+2025-05-20 22:34:48,105 - api - INFO - Route: /docs, Methods: {'GET', 'HEAD'}, Name: swagger_ui_html
+2025-05-20 22:34:48,105 - api - INFO - Route: /docs/oauth2-redirect, Methods: {'GET', 'HEAD'}, Name: swagger_ui_redirect
+2025-05-20 22:34:48,105 - api - INFO - Route: /redoc, Methods: {'GET', 'HEAD'}, Name: redoc_html
+2025-05-20 22:34:48,105 - api - INFO - Route: /, Methods: {'GET'}, Name: root
+2025-05-20 22:34:48,105 - api - INFO - Route: /test, Methods: {'GET'}, Name: test
+2025-05-20 22:34:48,105 - api - INFO - Route: /api/auth/register, Methods: {'POST'}, Name: register_user
+2025-05-20 22:34:48,105 - api - INFO - Route: /token, Methods: {'POST'}, Name: login_for_access_token
+2025-05-20 22:34:48,105 - api - INFO - Route: /test-login, Methods: {'POST'}, Name: test_login
+2025-05-20 22:34:48,105 - api - INFO - Route: /api/records/upload, Methods: {'POST'}, Name: upload_record
+2025-05-20 22:34:48,105 - api - INFO - Route: /api/records/{patient_id}, Methods: {'GET'}, Name: get_record
+2025-05-20 22:34:48,105 - api - INFO - Route: /api/records/download/{record_id}, Methods: {'GET'}, Name: download_record
+2025-05-20 22:34:48,106 - api - INFO - Route: /api/appointments, Methods: {'POST'}, Name: create_appointment
+2025-05-20 22:34:48,106 - api - INFO - Route: /api/appointments, Methods: {'GET'}, Name: get_appointments
+2025-05-20 22:34:48,106 - api - INFO - Route: /api/appointments/{appointment_id}, Methods: {'PUT'}, Name: update_appointment_status
+2025-05-20 22:34:48,106 - api - INFO - Route: /api/patients/search, Methods: {'GET'}, Name: search_patients
+2025-05-20 22:34:48,106 - api - INFO - Route: /api/patients/{patient_id}/profile, Methods: {'GET'}, Name: get_patient_profile
+2025-05-20 22:34:48,106 - api - INFO - Route: /api/appointments/schedule, Methods: {'POST'}, Name: schedule_appointment
+2025-05-20 22:34:48,106 - api - INFO - Route: /api/notifications, Methods: {'GET'}, Name: get_notifications
+2025-05-20 22:34:48,106 - api - INFO - Route: /api/notifications/{notification_id}, Methods: {'PUT'}, Name: mark_notification_read
+2025-05-20 22:34:48,106 - api - INFO - Route: /api/patients/{patient_id}/metrics, Methods: {'GET'}, Name: get_patient_metrics
+2025-05-20 22:34:48,106 - api - INFO - Route: /api/patients/{patient_id}/alerts, Methods: {'GET'}, Name: get_patient_alerts
+2025-05-20 22:34:48,106 - api - INFO - Route: /api/patients/{patient_id}/trends, Methods: {'GET'}, Name: get_patient_trends
+2025-05-20 22:34:48,106 - api - INFO - Route: /api/patients/{patient_id}/metrics, Methods: {'POST'}, Name: add_patient_metric
+2025-05-20 22:34:48,106 - api - INFO - Route: /api/alerts/{alert_id}, Methods: {'PUT'}, Name: update_alert_status
+2025-05-20 22:35:01,123 - api - INFO - === Registered Routes ===
+2025-05-20 22:35:01,124 - api - INFO - Route: /openapi.json, Methods: {'GET', 'HEAD'}, Name: openapi
+2025-05-20 22:35:01,124 - api - INFO - Route: /docs, Methods: {'GET', 'HEAD'}, Name: swagger_ui_html
+2025-05-20 22:35:01,124 - api - INFO - Route: /docs/oauth2-redirect, Methods: {'GET', 'HEAD'}, Name: swagger_ui_redirect
+2025-05-20 22:35:01,124 - api - INFO - Route: /redoc, Methods: {'GET', 'HEAD'}, Name: redoc_html
+2025-05-20 22:35:01,124 - api - INFO - Route: /, Methods: {'GET'}, Name: root
+2025-05-20 22:35:01,124 - api - INFO - Route: /test, Methods: {'GET'}, Name: test
+2025-05-20 22:35:01,124 - api - INFO - Route: /api/auth/register, Methods: {'POST'}, Name: register_user
+2025-05-20 22:35:01,124 - api - INFO - Route: /token, Methods: {'POST'}, Name: login_for_access_token
+2025-05-20 22:35:01,124 - api - INFO - Route: /test-login, Methods: {'POST'}, Name: test_login
+2025-05-20 22:35:01,124 - api - INFO - Route: /api/records/upload, Methods: {'POST'}, Name: upload_record
+2025-05-20 22:35:01,124 - api - INFO - Route: /api/records/{patient_id}, Methods: {'GET'}, Name: get_record
+2025-05-20 22:35:01,124 - api - INFO - Route: /api/records/download/{record_id}, Methods: {'GET'}, Name: download_record
+2025-05-20 22:35:01,124 - api - INFO - Route: /api/appointments, Methods: {'POST'}, Name: create_appointment
+2025-05-20 22:35:01,124 - api - INFO - Route: /api/appointments, Methods: {'GET'}, Name: get_appointments
+2025-05-20 22:35:01,125 - api - INFO - Route: /api/appointments/{appointment_id}, Methods: {'PUT'}, Name: update_appointment_status
+2025-05-20 22:35:01,125 - api - INFO - Route: /api/patients/search, Methods: {'GET'}, Name: search_patients
+2025-05-20 22:35:01,125 - api - INFO - Route: /api/patients/{patient_id}/profile, Methods: {'GET'}, Name: get_patient_profile
+2025-05-20 22:35:01,125 - api - INFO - Route: /api/appointments/schedule, Methods: {'POST'}, Name: schedule_appointment
+2025-05-20 22:35:01,125 - api - INFO - Route: /api/notifications, Methods: {'GET'}, Name: get_notifications
+2025-05-20 22:35:01,125 - api - INFO - Route: /api/notifications/{notification_id}, Methods: {'PUT'}, Name: mark_notification_read
+2025-05-20 22:35:01,125 - api - INFO - Route: /api/patients/{patient_id}/metrics, Methods: {'GET'}, Name: get_patient_metrics
+2025-05-20 22:35:01,125 - api - INFO - Route: /api/patients/{patient_id}/alerts, Methods: {'GET'}, Name: get_patient_alerts
+2025-05-20 22:35:01,125 - api - INFO - Route: /api/patients/{patient_id}/trends, Methods: {'GET'}, Name: get_patient_trends
+2025-05-20 22:35:01,125 - api - INFO - Route: /api/patients/{patient_id}/metrics, Methods: {'POST'}, Name: add_patient_metric
+2025-05-20 22:35:01,125 - api - INFO - Route: /api/alerts/{alert_id}, Methods: {'PUT'}, Name: update_alert_status
+2025-05-20 22:36:38,093 - api - INFO - === Registered Routes ===
+2025-05-20 22:36:38,093 - api - INFO - Route: /openapi.json, Methods: {'HEAD', 'GET'}, Name: openapi
+2025-05-20 22:36:38,093 - api - INFO - Route: /docs, Methods: {'HEAD', 'GET'}, Name: swagger_ui_html
+2025-05-20 22:36:38,093 - api - INFO - Route: /docs/oauth2-redirect, Methods: {'HEAD', 'GET'}, Name: swagger_ui_redirect
+2025-05-20 22:36:38,093 - api - INFO - Route: /redoc, Methods: {'HEAD', 'GET'}, Name: redoc_html
+2025-05-20 22:36:38,093 - api - INFO - Route: /, Methods: {'GET'}, Name: root
+2025-05-20 22:36:38,093 - api - INFO - Route: /test, Methods: {'GET'}, Name: test
+2025-05-20 22:36:38,093 - api - INFO - Route: /api/auth/register, Methods: {'POST'}, Name: register_user
+2025-05-20 22:36:38,093 - api - INFO - Route: /token, Methods: {'POST'}, Name: login_for_access_token
+2025-05-20 22:36:38,093 - api - INFO - Route: /test-login, Methods: {'POST'}, Name: test_login
+2025-05-20 22:36:38,093 - api - INFO - Route: /api/records/upload, Methods: {'POST'}, Name: upload_record
+2025-05-20 22:36:38,093 - api - INFO - Route: /api/records/{patient_id}, Methods: {'GET'}, Name: get_record
+2025-05-20 22:36:38,093 - api - INFO - Route: /api/records/download/{record_id}, Methods: {'GET'}, Name: download_record
+2025-05-20 22:36:38,093 - api - INFO - Route: /api/appointments, Methods: {'POST'}, Name: create_appointment
+2025-05-20 22:36:38,093 - api - INFO - Route: /api/appointments, Methods: {'GET'}, Name: get_appointments
+2025-05-20 22:36:38,093 - api - INFO - Route: /api/appointments/{appointment_id}, Methods: {'PUT'}, Name: update_appointment_status
+2025-05-20 22:36:38,093 - api - INFO - Route: /api/patients/search, Methods: {'GET'}, Name: search_patients
+2025-05-20 22:36:38,093 - api - INFO - Route: /api/patients/{patient_id}/profile, Methods: {'GET'}, Name: get_patient_profile
+2025-05-20 22:36:38,093 - api - INFO - Route: /api/appointments/schedule, Methods: {'POST'}, Name: schedule_appointment
+2025-05-20 22:36:38,093 - api - INFO - Route: /api/notifications, Methods: {'GET'}, Name: get_notifications
+2025-05-20 22:36:38,093 - api - INFO - Route: /api/notifications/{notification_id}, Methods: {'PUT'}, Name: mark_notification_read
+2025-05-20 22:36:38,093 - api - INFO - Route: /api/patients/{patient_id}/metrics, Methods: {'GET'}, Name: get_patient_metrics
+2025-05-20 22:36:38,093 - api - INFO - Route: /api/patients/{patient_id}/alerts, Methods: {'GET'}, Name: get_patient_alerts
+2025-05-20 22:36:38,093 - api - INFO - Route: /api/patients/{patient_id}/trends, Methods: {'GET'}, Name: get_patient_trends
+2025-05-20 22:36:38,093 - api - INFO - Route: /api/patients/{patient_id}/metrics, Methods: {'POST'}, Name: add_patient_metric
+2025-05-20 22:36:38,093 - api - INFO - Route: /api/alerts/{alert_id}, Methods: {'PUT'}, Name: update_alert_status
+2025-05-20 22:38:27,031 - api - INFO - === Registered Routes ===
+2025-05-20 22:38:27,031 - api - INFO - Route: /openapi.json, Methods: {'HEAD', 'GET'}, Name: openapi
+2025-05-20 22:38:27,031 - api - INFO - Route: /docs, Methods: {'HEAD', 'GET'}, Name: swagger_ui_html
+2025-05-20 22:38:27,032 - api - INFO - Route: /docs/oauth2-redirect, Methods: {'HEAD', 'GET'}, Name: swagger_ui_redirect
+2025-05-20 22:38:27,032 - api - INFO - Route: /redoc, Methods: {'HEAD', 'GET'}, Name: redoc_html
+2025-05-20 22:38:27,032 - api - INFO - Route: /test-login, Methods: {'POST'}, Name: test_login
+2025-05-20 22:38:27,032 - api - INFO - Route: /, Methods: {'GET'}, Name: root
+2025-05-20 22:38:27,032 - api - INFO - Route: /test, Methods: {'GET'}, Name: test
+2025-05-20 22:38:27,032 - api - INFO - Route: /api/auth/register, Methods: {'POST'}, Name: register_user
+2025-05-20 22:38:27,032 - api - INFO - Route: /token, Methods: {'POST'}, Name: login_for_access_token
+2025-05-20 22:38:27,032 - api - INFO - Route: /api/records/upload, Methods: {'POST'}, Name: upload_record
+2025-05-20 22:38:27,032 - api - INFO - Route: /api/records/{patient_id}, Methods: {'GET'}, Name: get_record
+2025-05-20 22:38:27,032 - api - INFO - Route: /api/records/download/{record_id}, Methods: {'GET'}, Name: download_record
+2025-05-20 22:38:27,032 - api - INFO - Route: /api/appointments, Methods: {'POST'}, Name: create_appointment
+2025-05-20 22:38:27,032 - api - INFO - Route: /api/appointments, Methods: {'GET'}, Name: get_appointments
+2025-05-20 22:38:27,032 - api - INFO - Route: /api/appointments/{appointment_id}, Methods: {'PUT'}, Name: update_appointment_status
+2025-05-20 22:38:27,032 - api - INFO - Route: /api/patients/search, Methods: {'GET'}, Name: search_patients
+2025-05-20 22:38:27,032 - api - INFO - Route: /api/patients/{patient_id}/profile, Methods: {'GET'}, Name: get_patient_profile
+2025-05-20 22:38:27,032 - api - INFO - Route: /api/appointments/schedule, Methods: {'POST'}, Name: schedule_appointment
+2025-05-20 22:38:27,032 - api - INFO - Route: /api/notifications, Methods: {'GET'}, Name: get_notifications
+2025-05-20 22:38:27,032 - api - INFO - Route: /api/notifications/{notification_id}, Methods: {'PUT'}, Name: mark_notification_read
+2025-05-20 22:38:27,032 - api - INFO - Route: /api/patients/{patient_id}/metrics, Methods: {'GET'}, Name: get_patient_metrics
+2025-05-20 22:38:27,032 - api - INFO - Route: /api/patients/{patient_id}/alerts, Methods: {'GET'}, Name: get_patient_alerts
+2025-05-20 22:38:27,032 - api - INFO - Route: /api/patients/{patient_id}/trends, Methods: {'GET'}, Name: get_patient_trends
+2025-05-20 22:38:27,032 - api - INFO - Route: /api/patients/{patient_id}/metrics, Methods: {'POST'}, Name: add_patient_metric
+2025-05-20 22:38:27,032 - api - INFO - Route: /api/alerts/{alert_id}, Methods: {'PUT'}, Name: update_alert_status
+2025-05-20 22:40:23,827 - api - INFO - === Registered Routes ===
+2025-05-20 22:40:23,827 - api - INFO - Route: /openapi.json, Methods: {'GET', 'HEAD'}, Name: openapi
+2025-05-20 22:40:23,827 - api - INFO - Route: /docs, Methods: {'GET', 'HEAD'}, Name: swagger_ui_html
+2025-05-20 22:40:23,827 - api - INFO - Route: /docs/oauth2-redirect, Methods: {'GET', 'HEAD'}, Name: swagger_ui_redirect
+2025-05-20 22:40:23,827 - api - INFO - Route: /redoc, Methods: {'GET', 'HEAD'}, Name: redoc_html
+2025-05-20 22:40:23,827 - api - INFO - Route: /test-login, Methods: {'POST'}, Name: test_login
+2025-05-20 22:40:23,827 - api - INFO - Route: /, Methods: {'GET'}, Name: root
+2025-05-20 22:40:23,827 - api - INFO - Route: /test, Methods: {'GET'}, Name: test
+2025-05-20 22:40:23,827 - api - INFO - Route: /api/auth/register, Methods: {'POST'}, Name: register_user
+2025-05-20 22:40:23,827 - api - INFO - Route: /token, Methods: {'POST'}, Name: login_for_access_token
+2025-05-20 22:40:23,827 - api - INFO - Route: /api/records/upload, Methods: {'POST'}, Name: upload_record
+2025-05-20 22:40:23,827 - api - INFO - Route: /api/records/{patient_id}, Methods: {'GET'}, Name: get_record
+2025-05-20 22:40:23,827 - api - INFO - Route: /api/records/download/{record_id}, Methods: {'GET'}, Name: download_record
+2025-05-20 22:40:23,827 - api - INFO - Route: /api/appointments, Methods: {'POST'}, Name: create_appointment
+2025-05-20 22:40:23,827 - api - INFO - Route: /api/appointments, Methods: {'GET'}, Name: get_appointments
+2025-05-20 22:40:23,827 - api - INFO - Route: /api/appointments/{appointment_id}, Methods: {'PUT'}, Name: update_appointment_status
+2025-05-20 22:40:23,827 - api - INFO - Route: /api/patients/search, Methods: {'GET'}, Name: search_patients
+2025-05-20 22:40:23,827 - api - INFO - Route: /api/patients/{patient_id}/profile, Methods: {'GET'}, Name: get_patient_profile
+2025-05-20 22:40:23,827 - api - INFO - Route: /api/appointments/schedule, Methods: {'POST'}, Name: schedule_appointment
+2025-05-20 22:40:23,827 - api - INFO - Route: /api/notifications, Methods: {'GET'}, Name: get_notifications
+2025-05-20 22:40:23,827 - api - INFO - Route: /api/notifications/{notification_id}, Methods: {'PUT'}, Name: mark_notification_read
+2025-05-20 22:40:23,827 - api - INFO - Route: /api/patients/{patient_id}/metrics, Methods: {'GET'}, Name: get_patient_metrics
+2025-05-20 22:40:23,827 - api - INFO - Route: /api/patients/{patient_id}/alerts, Methods: {'GET'}, Name: get_patient_alerts
+2025-05-20 22:40:23,827 - api - INFO - Route: /api/patients/{patient_id}/trends, Methods: {'GET'}, Name: get_patient_trends
+2025-05-20 22:40:23,827 - api - INFO - Route: /api/patients/{patient_id}/metrics, Methods: {'POST'}, Name: add_patient_metric
+2025-05-20 22:40:23,828 - api - INFO - Route: /api/alerts/{alert_id}, Methods: {'PUT'}, Name: update_alert_status
+2025-05-20 22:40:35,906 - api - INFO - === Registered Routes ===
+2025-05-20 22:40:35,907 - api - INFO - Route: /openapi.json, Methods: {'HEAD', 'GET'}, Name: openapi
+2025-05-20 22:40:35,907 - api - INFO - Route: /docs, Methods: {'HEAD', 'GET'}, Name: swagger_ui_html
+2025-05-20 22:40:35,907 - api - INFO - Route: /docs/oauth2-redirect, Methods: {'HEAD', 'GET'}, Name: swagger_ui_redirect
+2025-05-20 22:40:35,907 - api - INFO - Route: /redoc, Methods: {'HEAD', 'GET'}, Name: redoc_html
+2025-05-20 22:40:35,907 - api - INFO - Route: /test-login, Methods: {'POST'}, Name: test_login
+2025-05-20 22:40:35,907 - api - INFO - Route: /, Methods: {'GET'}, Name: root
+2025-05-20 22:40:35,907 - api - INFO - Route: /test, Methods: {'GET'}, Name: test
+2025-05-20 22:40:35,907 - api - INFO - Route: /api/auth/register, Methods: {'POST'}, Name: register_user
+2025-05-20 22:40:35,907 - api - INFO - Route: /token, Methods: {'POST'}, Name: login_for_access_token
+2025-05-20 22:40:35,907 - api - INFO - Route: /api/records/upload, Methods: {'POST'}, Name: upload_record
+2025-05-20 22:40:35,907 - api - INFO - Route: /api/records/{patient_id}, Methods: {'GET'}, Name: get_record
+2025-05-20 22:40:35,907 - api - INFO - Route: /api/records/download/{record_id}, Methods: {'GET'}, Name: download_record
+2025-05-20 22:40:35,907 - api - INFO - Route: /api/appointments, Methods: {'POST'}, Name: create_appointment
+2025-05-20 22:40:35,908 - api - INFO - Route: /api/appointments, Methods: {'GET'}, Name: get_appointments
+2025-05-20 22:40:35,908 - api - INFO - Route: /api/appointments/{appointment_id}, Methods: {'PUT'}, Name: update_appointment_status
+2025-05-20 22:40:35,908 - api - INFO - Route: /api/patients/search, Methods: {'GET'}, Name: search_patients
+2025-05-20 22:40:35,908 - api - INFO - Route: /api/patients/{patient_id}/profile, Methods: {'GET'}, Name: get_patient_profile
+2025-05-20 22:40:35,908 - api - INFO - Route: /api/appointments/schedule, Methods: {'POST'}, Name: schedule_appointment
+2025-05-20 22:40:35,908 - api - INFO - Route: /api/notifications, Methods: {'GET'}, Name: get_notifications
+2025-05-20 22:40:35,908 - api - INFO - Route: /api/notifications/{notification_id}, Methods: {'PUT'}, Name: mark_notification_read
+2025-05-20 22:40:35,908 - api - INFO - Route: /api/patients/{patient_id}/metrics, Methods: {'GET'}, Name: get_patient_metrics
+2025-05-20 22:40:35,908 - api - INFO - Route: /api/patients/{patient_id}/alerts, Methods: {'GET'}, Name: get_patient_alerts
+2025-05-20 22:40:35,909 - api - INFO - Route: /api/patients/{patient_id}/trends, Methods: {'GET'}, Name: get_patient_trends
+2025-05-20 22:40:35,909 - api - INFO - Route: /api/patients/{patient_id}/metrics, Methods: {'POST'}, Name: add_patient_metric
+2025-05-20 22:40:35,909 - api - INFO - Route: /api/alerts/{alert_id}, Methods: {'PUT'}, Name: update_alert_status
+2025-05-20 22:42:19,428 - api - INFO - === Registered Routes ===
+2025-05-20 22:42:19,428 - api - INFO - Route: /openapi.json, Methods: {'HEAD', 'GET'}, Name: openapi
+2025-05-20 22:42:19,428 - api - INFO - Route: /docs, Methods: {'HEAD', 'GET'}, Name: swagger_ui_html
+2025-05-20 22:42:19,428 - api - INFO - Route: /docs/oauth2-redirect, Methods: {'HEAD', 'GET'}, Name: swagger_ui_redirect
+2025-05-20 22:42:19,428 - api - INFO - Route: /redoc, Methods: {'HEAD', 'GET'}, Name: redoc_html
+2025-05-20 22:42:19,428 - api - INFO - Route: /, Methods: {'GET'}, Name: root
+2025-05-20 22:42:19,428 - api - INFO - Route: /test, Methods: {'GET'}, Name: test
+2025-05-20 22:42:19,428 - api - INFO - Route: /test-login, Methods: {'POST'}, Name: test_login
+2025-05-20 22:42:19,428 - api - INFO - Route: /api/auth/register, Methods: {'POST'}, Name: register_user
+2025-05-20 22:42:19,428 - api - INFO - Route: /token, Methods: {'POST'}, Name: login_for_access_token
+2025-05-20 22:42:19,428 - api - INFO - Route: /api/records/upload, Methods: {'POST'}, Name: upload_record
+2025-05-20 22:42:19,428 - api - INFO - Route: /api/records/{patient_id}, Methods: {'GET'}, Name: get_record
+2025-05-20 22:42:19,428 - api - INFO - Route: /api/records/download/{record_id}, Methods: {'GET'}, Name: download_record
+2025-05-20 22:42:19,429 - api - INFO - Route: /api/appointments, Methods: {'POST'}, Name: create_appointment
+2025-05-20 22:42:19,429 - api - INFO - Route: /api/appointments, Methods: {'GET'}, Name: get_appointments
+2025-05-20 22:42:19,429 - api - INFO - Route: /api/appointments/{appointment_id}, Methods: {'PUT'}, Name: update_appointment_status
+2025-05-20 22:42:19,429 - api - INFO - Route: /api/patients/search, Methods: {'GET'}, Name: search_patients
+2025-05-20 22:42:19,429 - api - INFO - Route: /api/patients/{patient_id}/profile, Methods: {'GET'}, Name: get_patient_profile
+2025-05-20 22:42:19,429 - api - INFO - Route: /api/appointments/schedule, Methods: {'POST'}, Name: schedule_appointment
+2025-05-20 22:42:19,429 - api - INFO - Route: /api/notifications, Methods: {'GET'}, Name: get_notifications
+2025-05-20 22:42:19,429 - api - INFO - Route: /api/notifications/{notification_id}, Methods: {'PUT'}, Name: mark_notification_read
+2025-05-20 22:42:19,429 - api - INFO - Route: /api/patients/{patient_id}/metrics, Methods: {'GET'}, Name: get_patient_metrics
+2025-05-20 22:42:19,429 - api - INFO - Route: /api/patients/{patient_id}/alerts, Methods: {'GET'}, Name: get_patient_alerts
+2025-05-20 22:42:19,429 - api - INFO - Route: /api/patients/{patient_id}/trends, Methods: {'GET'}, Name: get_patient_trends
+2025-05-20 22:42:19,429 - api - INFO - Route: /api/patients/{patient_id}/metrics, Methods: {'POST'}, Name: add_patient_metric
+2025-05-20 22:42:19,429 - api - INFO - Route: /api/alerts/{alert_id}, Methods: {'PUT'}, Name: update_alert_status
